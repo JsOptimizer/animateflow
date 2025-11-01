@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 AnimateFlow
 
-## Getting Started
+A creative playground for mastering **GSAP** animations in **Next.js**.
+This project is part of my motion design journey — experimenting with smooth page transitions, scroll-based animations, and immersive UI motion effects.
 
-First, run the development server:
+## 🚀 Tech Stack
+
+* **Next.js** – React framework for modern web apps
+* **GSAP (GreenSock Animation Platform)** – high-performance animation library
+* **TailwindCSS** – for clean and fast styling
+* **TypeScript** – for type safety and better developer experience
+
+## 🎯 Goals
+
+* Build reusable animation utilities for Next.js
+* Explore scroll-triggered and timeline-based animations
+* Experiment with creative UI motion and 3D-like transitions
+* Document progress and share learnings
+
+## 🧩 Structure
+
+```
+/app             → Next.js app directory & pages
+/components      → Animated components & sections
+/hooks           → Custom hooks for GSAP logic
+/utils           → Animation helpers and configs
+/styles          → Tailwind & global styles
+```
+
+## 💡 Inspiration
+
+> "Motion tells a story — every scroll, hover, and transition should feel alive."
+
+## 🛠️ Setup
 
 ```bash
+# Clone the repository
+git clone https://github.com/<your-username>/animateflow.git
+
+# Navigate into the folder
+cd animateflow
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📸 Demos
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Coming soon — watch this space for live examples and code walkthroughs.
 
-## Learn More
+## 📚 License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open source under the **MIT License**.
